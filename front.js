@@ -38,5 +38,5 @@ function generateTen(prob) {
     return result;
 }
         
-display_results(generateTen(paikannimia.default.prob).map(p => p[0].toLocaleUpperCase() + p.substring(1)));
+display_results(generateTen(kotus.default.prob));
 
